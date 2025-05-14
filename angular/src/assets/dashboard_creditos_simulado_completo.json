@@ -1,0 +1,4119 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Cliente 1",
+      "documento": "0924323822",
+      "creditos": [
+        {
+          "id": 100,
+          "tipo": "Personal",
+          "estado": "En mora",
+          "fechaInicio": "2023-09-15",
+          "monto": 32544,
+          "interes": 17.75,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2023-09-15",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-10-15",
+              "monto": 1356.0
+            },
+            {
+              "fecha": "2023-11-14",
+              "monto": 1356.0
+            },
+            {
+              "fecha": "2023-12-14",
+              "monto": 1356.0
+            },
+            {
+              "fecha": "2024-01-13",
+              "monto": 1356.0
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Norte",
+          "region": "Sierra"
+        },
+        {
+          "id": 101,
+          "tipo": "Personal",
+          "estado": "En mora",
+          "fechaInicio": "2020-10-05",
+          "monto": 18800,
+          "interes": 17.04,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2020-10-05",
+              "monto": 0
+            },
+            {
+              "fecha": "2020-11-04",
+              "monto": 522.22
+            },
+            {
+              "fecha": "2020-12-04",
+              "monto": 522.22
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Norte",
+          "region": "Costa"
+        },
+        {
+          "id": 102,
+          "tipo": "Educativo",
+          "estado": "En mora",
+          "fechaInicio": "2021-09-24",
+          "monto": 3605,
+          "interes": 15.32,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2021-09-24",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2021-10-24",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2021-11-23",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-12-23",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-01-22",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-02-21",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-03-23",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-04-22",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-05-22",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-06-21",
+              "monto": 150.21
+            },
+            {
+              "fecha": "2022-07-21",
+              "monto": 150.21
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Oeste",
+          "region": "Amazonía"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cliente 2",
+      "documento": "0981181735",
+      "creditos": [
+        {
+          "id": 200,
+          "tipo": "Vehicular",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-10-18",
+          "monto": 27066,
+          "interes": 13.73,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2020-10-18",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2020-11-17",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2020-12-17",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-01-16",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-02-15",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-03-17",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-04-16",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-05-16",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-06-15",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-07-15",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-08-14",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-09-13",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-10-13",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-11-12",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2021-12-12",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-01-11",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-02-10",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-03-12",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-04-11",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-05-11",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-06-10",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-07-10",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-08-09",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-09-08",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-10-08",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-11-07",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2022-12-07",
+              "monto": 751.83
+            },
+            {
+              "fecha": "2023-01-06",
+              "monto": 751.83
+            }
+          ],
+          "sucursal": "Guayaquil",
+          "centroCosto": "Centro Este",
+          "region": "Sierra"
+        },
+        {
+          "id": 201,
+          "tipo": "Personal",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-06-23",
+          "monto": 31882,
+          "interes": 12.83,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2021-06-23",
+              "monto": 1328.42
+            },
+            {
+              "fecha": "2021-07-23",
+              "monto": 1328.42
+            },
+            {
+              "fecha": "2021-08-22",
+              "monto": 1328.42
+            }
+          ],
+          "sucursal": "Guayaquil",
+          "centroCosto": "Centro Este",
+          "region": "Amazonía"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Cliente 3",
+      "documento": "0986843135",
+      "creditos": [
+        {
+          "id": 300,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2023-06-23",
+          "monto": 16691,
+          "interes": 17.13,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2023-06-23",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2023-07-23",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-08-22",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2023-09-21",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2023-10-21",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2023-11-20",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2023-12-20",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-01-19",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-02-18",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-03-19",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-04-18",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-05-18",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-06-17",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-07-17",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-08-16",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-09-15",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-10-15",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-11-14",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2024-12-14",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-01-13",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-02-12",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-03-14",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-04-13",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-05-13",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-06-12",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-07-12",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-08-11",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-09-10",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-10-10",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-11-09",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2025-12-09",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-01-08",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-02-07",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-03-09",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-04-08",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-05-08",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-06-07",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-07-07",
+              "monto": 278.18
+            },
+            {
+              "fecha": "2026-08-06",
+              "monto": 278.18
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Oeste",
+          "region": "Insular"
+        },
+        {
+          "id": 301,
+          "tipo": "Consumo",
+          "estado": "En mora",
+          "fechaInicio": "2024-12-14",
+          "monto": 18392,
+          "interes": 14.53,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2024-12-14",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-01-13",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-02-12",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-03-14",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-04-13",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-05-13",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-06-12",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-07-12",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-08-11",
+              "monto": 1532.67
+            },
+            {
+              "fecha": "2025-09-10",
+              "monto": 1532.67
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Oeste",
+          "region": "Sierra"
+        },
+        {
+          "id": 302,
+          "tipo": "Personal",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-07-11",
+          "monto": 4987,
+          "interes": 9.18,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-07-11",
+              "monto": 415.58
+            },
+            {
+              "fecha": "2020-08-10",
+              "monto": 415.58
+            },
+            {
+              "fecha": "2020-09-09",
+              "monto": 415.58
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Sur",
+          "region": "Sierra"
+        },
+        {
+          "id": 303,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-03-09",
+          "monto": 23836,
+          "interes": 12.48,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-03-09",
+              "monto": 1986.33
+            },
+            {
+              "fecha": "2020-04-08",
+              "monto": 1986.33
+            },
+            {
+              "fecha": "2020-05-08",
+              "monto": 1986.33
+            },
+            {
+              "fecha": "2020-06-07",
+              "monto": 1986.33
+            },
+            {
+              "fecha": "2020-07-07",
+              "monto": 1986.33
+            },
+            {
+              "fecha": "2020-08-06",
+              "monto": 1986.33
+            },
+            {
+              "fecha": "2020-09-05",
+              "monto": 1986.33
+            }
+          ],
+          "sucursal": "Guayaquil",
+          "centroCosto": "Centro Norte",
+          "region": "Amazonía"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Cliente 4",
+      "documento": "0921799589",
+      "creditos": [
+        {
+          "id": 400,
+          "tipo": "Consumo",
+          "estado": "En mora",
+          "fechaInicio": "2020-06-13",
+          "monto": 37538,
+          "interes": 15.97,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2020-06-13",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2020-07-13",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2020-08-12",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2020-09-11",
+              "monto": 0
+            },
+            {
+              "fecha": "2020-10-11",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2020-11-10",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2020-12-10",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-01-09",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-02-08",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-03-10",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-04-09",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-05-09",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-06-08",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-07-08",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-08-07",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-09-06",
+              "monto": 1042.72
+            },
+            {
+              "fecha": "2021-10-06",
+              "monto": 1042.72
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Oeste",
+          "region": "Sierra"
+        },
+        {
+          "id": 401,
+          "tipo": "Vehicular",
+          "estado": "En mora",
+          "fechaInicio": "2022-01-10",
+          "monto": 12873,
+          "interes": 14.92,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2022-01-10",
+              "monto": 536.38
+            },
+            {
+              "fecha": "2022-02-09",
+              "monto": 536.38
+            },
+            {
+              "fecha": "2022-03-11",
+              "monto": 536.38
+            },
+            {
+              "fecha": "2022-04-10",
+              "monto": 536.38
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Oeste",
+          "region": "Costa"
+        },
+        {
+          "id": 402,
+          "tipo": "Personal",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-07-07",
+          "monto": 18130,
+          "interes": 12.41,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2024-07-07",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2024-08-06",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2024-09-05",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2024-10-05",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-11-04",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-12-04",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-01-03",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-02-02",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-03-04",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-04-03",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-05-03",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-06-02",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-07-02",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-08-01",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-08-31",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-09-30",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-10-30",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-11-29",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2025-12-29",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-01-28",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2026-02-27",
+              "monto": 755.42
+            },
+            {
+              "fecha": "2026-03-29",
+              "monto": 755.42
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Oeste",
+          "region": "Amazonía"
+        },
+        {
+          "id": 403,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2022-03-05",
+          "monto": 17770,
+          "interes": 17.97,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2022-03-05",
+              "monto": 493.61
+            },
+            {
+              "fecha": "2022-04-04",
+              "monto": 493.61
+            },
+            {
+              "fecha": "2022-05-04",
+              "monto": 493.61
+            },
+            {
+              "fecha": "2022-06-03",
+              "monto": 493.61
+            },
+            {
+              "fecha": "2022-07-03",
+              "monto": 493.61
+            },
+            {
+              "fecha": "2022-08-02",
+              "monto": 493.61
+            },
+            {
+              "fecha": "2022-09-01",
+              "monto": 493.61
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Sur",
+          "region": "Sierra"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Cliente 5",
+      "documento": "0982581667",
+      "creditos": [
+        {
+          "id": 500,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-10-16",
+          "monto": 14720,
+          "interes": 10.52,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-10-16",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2020-11-15",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2020-12-15",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-01-14",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-02-13",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-03-15",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-04-14",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-05-14",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-06-13",
+              "monto": 1226.67
+            },
+            {
+              "fecha": "2021-07-13",
+              "monto": 1226.67
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Norte",
+          "region": "Insular"
+        },
+        {
+          "id": 501,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2022-12-01",
+          "monto": 45030,
+          "interes": 11.7,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2022-12-01",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2022-12-31",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-01-30",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-03-01",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-03-31",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-04-30",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-05-30",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-06-29",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-07-29",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-08-28",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-09-27",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-10-27",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-11-26",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2023-12-26",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2024-01-25",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2024-02-24",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2024-03-25",
+              "monto": 1250.83
+            },
+            {
+              "fecha": "2024-04-24",
+              "monto": 1250.83
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Sur",
+          "region": "Costa"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Cliente 6",
+      "documento": "0993748236",
+      "creditos": [
+        {
+          "id": 600,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-02-02",
+          "monto": 33144,
+          "interes": 14.81,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2021-02-02",
+              "monto": 1381.0
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Oeste",
+          "region": "Amazonía"
+        },
+        {
+          "id": 601,
+          "tipo": "Educativo",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-02-14",
+          "monto": 4372,
+          "interes": 12.2,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2021-02-14",
+              "monto": 182.17
+            },
+            {
+              "fecha": "2021-03-16",
+              "monto": 182.17
+            },
+            {
+              "fecha": "2021-04-15",
+              "monto": 182.17
+            },
+            {
+              "fecha": "2021-05-15",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-06-14",
+              "monto": 182.17
+            }
+          ],
+          "sucursal": "Guayaquil",
+          "centroCosto": "Centro Sur",
+          "region": "Amazonía"
+        },
+        {
+          "id": 602,
+          "tipo": "Vehicular",
+          "estado": "Aprobado",
+          "fechaInicio": "2023-06-26",
+          "monto": 37912,
+          "interes": 9.65,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2023-06-26",
+              "monto": 1579.67
+            },
+            {
+              "fecha": "2023-07-26",
+              "monto": 1579.67
+            },
+            {
+              "fecha": "2023-08-25",
+              "monto": 1579.67
+            },
+            {
+              "fecha": "2023-09-24",
+              "monto": 1579.67
+            },
+            {
+              "fecha": "2023-10-24",
+              "monto": 1579.67
+            },
+            {
+              "fecha": "2023-11-23",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-12-23",
+              "monto": 0
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Oeste",
+          "region": "Insular"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Cliente 7",
+      "documento": "0953402450",
+      "creditos": [
+        {
+          "id": 700,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-12-28",
+          "monto": 37175,
+          "interes": 11.81,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2021-12-28",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-01-27",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-02-26",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-03-28",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-04-27",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-05-27",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-06-26",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-07-26",
+              "monto": 3097.92
+            },
+            {
+              "fecha": "2022-08-25",
+              "monto": 3097.92
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Este",
+          "region": "Amazonía"
+        },
+        {
+          "id": 701,
+          "tipo": "Personal",
+          "estado": "Cancelado",
+          "fechaInicio": "2020-07-15",
+          "monto": 12957,
+          "interes": 9.05,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2020-07-15",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2020-08-14",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2020-09-13",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2020-10-13",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2020-11-12",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2020-12-12",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-01-11",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-02-10",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-03-12",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-04-11",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-05-11",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-06-10",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-07-10",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-08-09",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-09-08",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-10-08",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-11-07",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2021-12-07",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2022-01-06",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2022-02-05",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2022-03-07",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-04-06",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2022-05-06",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2022-06-05",
+              "monto": 215.95
+            },
+            {
+              "fecha": "2022-07-05",
+              "monto": 215.95
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Oeste",
+          "region": "Sierra"
+        },
+        {
+          "id": 702,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-05-06",
+          "monto": 23988,
+          "interes": 13.45,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2021-05-06",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2021-06-05",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-07-05",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-08-04",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2021-09-03",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2021-10-03",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2021-11-02",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2021-12-02",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-01-01",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-01-31",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-03-02",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-04-01",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-05-01",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-05-31",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-06-30",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-07-30",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-08-29",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-09-28",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-10-28",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-11-27",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2022-12-27",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-01-26",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-02-25",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-03-27",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-04-26",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-05-26",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-06-25",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-07-25",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-08-24",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-09-23",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-10-23",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-11-22",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2023-12-22",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-01-21",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-02-20",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-03-21",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-04-20",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-05-20",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-06-19",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-07-19",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-08-18",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-09-17",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-10-17",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-11-16",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2024-12-16",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-01-15",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-02-14",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-03-16",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-04-15",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-05-15",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-06-14",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-07-14",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-08-13",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-09-12",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-10-12",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-11-11",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2025-12-11",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2026-01-10",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2026-02-09",
+              "monto": 399.8
+            },
+            {
+              "fecha": "2026-03-11",
+              "monto": 399.8
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Norte",
+          "region": "Costa"
+        },
+        {
+          "id": 703,
+          "tipo": "Educativo",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-09-06",
+          "monto": 16844,
+          "interes": 15.44,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2021-09-06",
+              "monto": 467.89
+            },
+            {
+              "fecha": "2021-10-06",
+              "monto": 467.89
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Oeste",
+          "region": "Insular"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Cliente 8",
+      "documento": "0938351351",
+      "creditos": [
+        {
+          "id": 800,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2022-01-06",
+          "monto": 39847,
+          "interes": 14.45,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2022-01-06",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-02-05",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-03-07",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-04-06",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-05-06",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-06-05",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-07-05",
+              "monto": 1660.29
+            },
+            {
+              "fecha": "2022-08-04",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-09-03",
+              "monto": 1660.29
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Sur",
+          "region": "Insular"
+        },
+        {
+          "id": 801,
+          "tipo": "Educativo",
+          "estado": "En mora",
+          "fechaInicio": "2023-08-24",
+          "monto": 29065,
+          "interes": 14.59,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2023-08-24",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2023-09-23",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2023-10-23",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2023-11-22",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2023-12-22",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-01-21",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-02-20",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-03-21",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-04-20",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-05-20",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-06-19",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-07-19",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-08-18",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-09-17",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-10-17",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-11-16",
+              "monto": 807.36
+            },
+            {
+              "fecha": "2024-12-16",
+              "monto": 807.36
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Este",
+          "region": "Costa"
+        },
+        {
+          "id": 802,
+          "tipo": "Educativo",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-10-28",
+          "monto": 8145,
+          "interes": 11.68,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2024-10-28",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2024-11-27",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-12-27",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-01-26",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-02-25",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-03-27",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-04-26",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-05-26",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-06-25",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-07-25",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-08-24",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-09-23",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-10-23",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-11-22",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2025-12-22",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2026-01-21",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2026-02-20",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2026-03-22",
+              "monto": 226.25
+            },
+            {
+              "fecha": "2026-04-21",
+              "monto": 226.25
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Norte",
+          "region": "Insular"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Cliente 9",
+      "documento": "0955179470",
+      "creditos": [
+        {
+          "id": 900,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-08-11",
+          "monto": 7194,
+          "interes": 11.47,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2024-08-11",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2024-09-10",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2024-10-10",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2024-11-09",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-12-09",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-01-08",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-02-07",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-03-09",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-04-08",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-05-08",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-06-07",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-07-07",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-08-06",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-09-05",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-10-05",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-11-04",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2025-12-04",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-01-03",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-02-02",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-03-04",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-04-03",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-05-03",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-06-02",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-07-02",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-08-01",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-08-31",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-09-30",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-10-30",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-11-29",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2026-12-29",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2027-01-28",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2027-02-27",
+              "monto": 199.83
+            },
+            {
+              "fecha": "2027-03-29",
+              "monto": 199.83
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Oeste",
+          "region": "Insular"
+        },
+        {
+          "id": 901,
+          "tipo": "Consumo",
+          "estado": "En mora",
+          "fechaInicio": "2020-07-13",
+          "monto": 26211,
+          "interes": 13.27,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-07-13",
+              "monto": 2184.25
+            },
+            {
+              "fecha": "2020-08-12",
+              "monto": 2184.25
+            },
+            {
+              "fecha": "2020-09-11",
+              "monto": 2184.25
+            },
+            {
+              "fecha": "2020-10-11",
+              "monto": 2184.25
+            },
+            {
+              "fecha": "2020-11-10",
+              "monto": 2184.25
+            },
+            {
+              "fecha": "2020-12-10",
+              "monto": 2184.25
+            },
+            {
+              "fecha": "2021-01-09",
+              "monto": 2184.25
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Norte",
+          "region": "Insular"
+        },
+        {
+          "id": 902,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-06-22",
+          "monto": 41861,
+          "interes": 12.81,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2024-06-22",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2024-07-22",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-08-21",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2024-09-20",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2024-10-20",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2024-11-19",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2024-12-19",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2025-01-18",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2025-02-17",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2025-03-19",
+              "monto": 1162.81
+            },
+            {
+              "fecha": "2025-04-18",
+              "monto": 1162.81
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Sur",
+          "region": "Sierra"
+        },
+        {
+          "id": 903,
+          "tipo": "Hipotecario",
+          "estado": "Cancelado",
+          "fechaInicio": "2023-09-13",
+          "monto": 19268,
+          "interes": 10.39,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2023-09-13",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2023-10-13",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2023-11-12",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2023-12-12",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2024-01-11",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2024-02-10",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2024-03-11",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2024-04-10",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2024-05-10",
+              "monto": 535.22
+            },
+            {
+              "fecha": "2024-06-09",
+              "monto": 535.22
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Norte",
+          "region": "Sierra"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Cliente 10",
+      "documento": "0976259718",
+      "creditos": [
+        {
+          "id": 1000,
+          "tipo": "Vehicular",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-03-22",
+          "monto": 45117,
+          "interes": 13.69,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2024-03-22",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-04-21",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-05-21",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-06-20",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-07-20",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-08-19",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-09-18",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-10-18",
+              "monto": 3759.75
+            },
+            {
+              "fecha": "2024-11-17",
+              "monto": 3759.75
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Oeste",
+          "region": "Sierra"
+        },
+        {
+          "id": 1001,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-08-04",
+          "monto": 38006,
+          "interes": 13.0,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-08-04",
+              "monto": 3167.17
+            },
+            {
+              "fecha": "2020-09-03",
+              "monto": 3167.17
+            },
+            {
+              "fecha": "2020-10-03",
+              "monto": 3167.17
+            },
+            {
+              "fecha": "2020-11-02",
+              "monto": 3167.17
+            },
+            {
+              "fecha": "2020-12-02",
+              "monto": 3167.17
+            },
+            {
+              "fecha": "2021-01-01",
+              "monto": 0
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Sur",
+          "region": "Sierra"
+        },
+        {
+          "id": 1002,
+          "tipo": "Hipotecario",
+          "estado": "Cancelado",
+          "fechaInicio": "2022-07-21",
+          "monto": 32361,
+          "interes": 14.37,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2022-07-21",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2022-08-20",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2022-09-19",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2022-10-19",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2022-11-18",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2022-12-18",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-01-17",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-02-16",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-03-18",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-04-17",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-05-17",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-06-16",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-07-16",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-08-15",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-09-14",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-10-14",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-11-13",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2023-12-13",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-01-12",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-02-11",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-03-12",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-04-11",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-05-11",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-06-10",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-07-10",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-08-09",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-09-08",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2024-10-08",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-11-07",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-12-07",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-01-06",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-02-05",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-03-07",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-04-06",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-05-06",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-06-05",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-07-05",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-08-04",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-09-03",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-10-03",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-11-02",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2025-12-02",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-01-01",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-01-31",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-03-02",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-04-01",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-05-01",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-05-31",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-06-30",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-07-30",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-08-29",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-09-28",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-10-28",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-11-27",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2026-12-27",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2027-01-26",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2027-02-25",
+              "monto": 0
+            },
+            {
+              "fecha": "2027-03-27",
+              "monto": 539.35
+            },
+            {
+              "fecha": "2027-04-26",
+              "monto": 539.35
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Norte",
+          "region": "Sierra"
+        },
+        {
+          "id": 1003,
+          "tipo": "Vehicular",
+          "estado": "En mora",
+          "fechaInicio": "2022-07-23",
+          "monto": 7759,
+          "interes": 12.11,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2022-07-23",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2022-08-22",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2022-09-21",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2022-10-21",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-11-20",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2022-12-20",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-01-19",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-02-18",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-03-20",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-04-19",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-05-19",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-06-18",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-07-18",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-08-17",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-09-16",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-10-16",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-11-15",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2023-12-15",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2024-01-14",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2024-02-13",
+              "monto": 323.29
+            },
+            {
+              "fecha": "2024-03-14",
+              "monto": 323.29
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Norte",
+          "region": "Sierra"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Cliente 11",
+      "documento": "0920371394",
+      "creditos": [
+        {
+          "id": 1100,
+          "tipo": "Personal",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-04-12",
+          "monto": 35420,
+          "interes": 10.89,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2024-04-12",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-05-12",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-06-11",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-07-11",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-08-10",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-09-09",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-10-09",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-11-08",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2024-12-08",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-01-07",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-02-06",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-03-08",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-04-07",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-05-07",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-06-06",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-07-06",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-08-05",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-09-04",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-10-04",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-11-03",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2025-12-03",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2026-01-02",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2026-02-01",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2026-03-03",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2026-04-02",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2026-05-02",
+              "monto": 983.89
+            },
+            {
+              "fecha": "2026-06-01",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-07-01",
+              "monto": 983.89
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Oeste",
+          "region": "Costa"
+        },
+        {
+          "id": 1101,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2022-03-06",
+          "monto": 25015,
+          "interes": 11.74,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2022-03-06",
+              "monto": 2084.58
+            },
+            {
+              "fecha": "2022-04-05",
+              "monto": 2084.58
+            },
+            {
+              "fecha": "2022-05-05",
+              "monto": 0
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Oeste",
+          "region": "Sierra"
+        },
+        {
+          "id": 1102,
+          "tipo": "Educativo",
+          "estado": "En mora",
+          "fechaInicio": "2023-07-14",
+          "monto": 9077,
+          "interes": 12.06,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2023-07-14",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2023-08-13",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2023-09-12",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2023-10-12",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2023-11-11",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2023-12-11",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-01-10",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-02-09",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-03-10",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-04-09",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-05-09",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-06-08",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-07-08",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-08-07",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-09-06",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-10-06",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-11-05",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2024-12-05",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-01-04",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-02-03",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-03-05",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-04-04",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-05-04",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-06-03",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-07-03",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-08-02",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-09-01",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-10-01",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-10-31",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-11-30",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2025-12-30",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-01-29",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-02-28",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-03-30",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-04-29",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-05-29",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-06-28",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-07-28",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-08-27",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-09-26",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-10-26",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-11-25",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2026-12-25",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-01-24",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-02-23",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-03-25",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-04-24",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-05-24",
+              "monto": 0
+            },
+            {
+              "fecha": "2027-06-23",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-07-23",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-08-22",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-09-21",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-10-21",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-11-20",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2027-12-20",
+              "monto": 151.28
+            },
+            {
+              "fecha": "2028-01-19",
+              "monto": 151.28
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Norte",
+          "region": "Sierra"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Cliente 12",
+      "documento": "0957628296",
+      "creditos": [
+        {
+          "id": 1200,
+          "tipo": "Personal",
+          "estado": "Cancelado",
+          "fechaInicio": "2024-09-08",
+          "monto": 4852,
+          "interes": 9.19,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2024-09-08",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2024-10-08",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2024-11-07",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-12-07",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-01-06",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-02-05",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-03-07",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-04-06",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-05-06",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-06-05",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-07-05",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-08-04",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-09-03",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-10-03",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-11-02",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2025-12-02",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-01-01",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-01-31",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-03-02",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-04-01",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-05-01",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-05-31",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-06-30",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-07-30",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-08-29",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-09-28",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-10-28",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-11-27",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2026-12-27",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-01-26",
+              "monto": 0
+            },
+            {
+              "fecha": "2027-02-25",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-03-27",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-04-26",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-05-26",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-06-25",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-07-25",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-08-24",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-09-23",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-10-23",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-11-22",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2027-12-22",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2028-01-21",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2028-02-20",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2028-03-21",
+              "monto": 80.87
+            },
+            {
+              "fecha": "2028-04-20",
+              "monto": 80.87
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Sur",
+          "region": "Costa"
+        },
+        {
+          "id": 1201,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-10-24",
+          "monto": 41234,
+          "interes": 13.94,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-10-24",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2020-11-23",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2020-12-23",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2021-01-22",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2021-02-21",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2021-03-23",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2021-04-22",
+              "monto": 3436.17
+            },
+            {
+              "fecha": "2021-05-22",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-06-21",
+              "monto": 0
+            }
+          ],
+          "sucursal": "Quito",
+          "centroCosto": "Centro Norte",
+          "region": "Costa"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Cliente 13",
+      "documento": "0970379263",
+      "creditos": [
+        {
+          "id": 1300,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-02-11",
+          "monto": 38108,
+          "interes": 9.19,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2024-02-11",
+              "monto": 1587.83
+            },
+            {
+              "fecha": "2024-03-12",
+              "monto": 1587.83
+            },
+            {
+              "fecha": "2024-04-11",
+              "monto": 1587.83
+            },
+            {
+              "fecha": "2024-05-11",
+              "monto": 1587.83
+            },
+            {
+              "fecha": "2024-06-10",
+              "monto": 1587.83
+            },
+            {
+              "fecha": "2024-07-10",
+              "monto": 1587.83
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Oeste",
+          "region": "Sierra"
+        },
+        {
+          "id": 1301,
+          "tipo": "Educativo",
+          "estado": "Cancelado",
+          "fechaInicio": "2024-04-25",
+          "monto": 17731,
+          "interes": 13.79,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2024-04-25",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-05-25",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-06-24",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-07-24",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-08-23",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-09-22",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-10-22",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-11-21",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2024-12-21",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-01-20",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-02-19",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-03-21",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-04-20",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-05-20",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-06-19",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-07-19",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-08-18",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-09-17",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-10-17",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-11-16",
+              "monto": 295.52
+            },
+            {
+              "fecha": "2025-12-16",
+              "monto": 295.52
+            }
+          ],
+          "sucursal": "Guayaquil",
+          "centroCosto": "Centro Sur",
+          "region": "Insular"
+        },
+        {
+          "id": 1302,
+          "tipo": "Consumo",
+          "estado": "Aprobado",
+          "fechaInicio": "2022-10-28",
+          "monto": 32983,
+          "interes": 9.43,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2022-10-28",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-11-27",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2022-12-27",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-01-26",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-02-25",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-03-27",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-04-26",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-05-26",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-06-25",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-07-25",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-08-24",
+              "monto": 549.72
+            },
+            {
+              "fecha": "2023-09-23",
+              "monto": 0
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Norte",
+          "region": "Costa"
+        },
+        {
+          "id": 1303,
+          "tipo": "Educativo",
+          "estado": "Aprobado",
+          "fechaInicio": "2021-01-02",
+          "monto": 30585,
+          "interes": 9.28,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2021-01-02",
+              "monto": 2548.75
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Oeste",
+          "region": "Amazonía"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Cliente 14",
+      "documento": "0995207897",
+      "creditos": [
+        {
+          "id": 1400,
+          "tipo": "Vehicular",
+          "estado": "Cancelado",
+          "fechaInicio": "2024-06-15",
+          "monto": 40006,
+          "interes": 15.25,
+          "cuotas": 36,
+          "pagos": [
+            {
+              "fecha": "2024-06-15",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2024-07-15",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2024-08-14",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2024-09-13",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2024-10-13",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-11-12",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2024-12-12",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-01-11",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-02-10",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-03-12",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-04-11",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-05-11",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-06-10",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-07-10",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-08-09",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-09-08",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-10-08",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2025-11-07",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-12-07",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-01-06",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-02-05",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-03-07",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-04-06",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-05-06",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-06-05",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-07-05",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-08-04",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-09-03",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-10-03",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-11-02",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2026-12-02",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2027-01-01",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2027-01-31",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2027-03-02",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2027-04-01",
+              "monto": 1111.28
+            },
+            {
+              "fecha": "2027-05-01",
+              "monto": 1111.28
+            }
+          ],
+          "sucursal": "Ambato",
+          "centroCosto": "Centro Este",
+          "region": "Insular"
+        },
+        {
+          "id": 1401,
+          "tipo": "Educativo",
+          "estado": "Cancelado",
+          "fechaInicio": "2022-07-16",
+          "monto": 14496,
+          "interes": 9.92,
+          "cuotas": 24,
+          "pagos": [
+            {
+              "fecha": "2022-07-16",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2022-08-15",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2022-09-14",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2022-10-14",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2022-11-13",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2022-12-13",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-01-12",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-02-11",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-03-13",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-04-12",
+              "monto": 0
+            },
+            {
+              "fecha": "2023-05-12",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-06-11",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-07-11",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-08-10",
+              "monto": 604.0
+            },
+            {
+              "fecha": "2023-09-09",
+              "monto": 604.0
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Norte",
+          "region": "Costa"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "Cliente 15",
+      "documento": "0918049975",
+      "creditos": [
+        {
+          "id": 1500,
+          "tipo": "Personal",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-10-25",
+          "monto": 35661,
+          "interes": 10.52,
+          "cuotas": 12,
+          "pagos": [
+            {
+              "fecha": "2020-10-25",
+              "monto": 2971.75
+            },
+            {
+              "fecha": "2020-11-24",
+              "monto": 2971.75
+            },
+            {
+              "fecha": "2020-12-24",
+              "monto": 2971.75
+            },
+            {
+              "fecha": "2021-01-23",
+              "monto": 2971.75
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Sur",
+          "region": "Sierra"
+        },
+        {
+          "id": 1501,
+          "tipo": "Hipotecario",
+          "estado": "Aprobado",
+          "fechaInicio": "2020-05-20",
+          "monto": 40222,
+          "interes": 9.06,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2020-05-20",
+              "monto": 670.37
+            },
+            {
+              "fecha": "2020-06-19",
+              "monto": 670.37
+            },
+            {
+              "fecha": "2020-07-19",
+              "monto": 670.37
+            },
+            {
+              "fecha": "2020-08-18",
+              "monto": 670.37
+            },
+            {
+              "fecha": "2020-09-17",
+              "monto": 670.37
+            },
+            {
+              "fecha": "2020-10-17",
+              "monto": 670.37
+            }
+          ],
+          "sucursal": "Manta",
+          "centroCosto": "Centro Norte",
+          "region": "Insular"
+        },
+        {
+          "id": 1502,
+          "tipo": "Personal",
+          "estado": "Aprobado",
+          "fechaInicio": "2024-02-20",
+          "monto": 32750,
+          "interes": 17.35,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2024-02-20",
+              "monto": 0
+            },
+            {
+              "fecha": "2024-03-21",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-04-20",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-05-20",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-06-19",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-07-19",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-08-18",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-09-17",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-10-17",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-11-16",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2024-12-16",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-01-15",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-02-14",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-03-16",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-04-15",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-05-15",
+              "monto": 0
+            },
+            {
+              "fecha": "2025-06-14",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-07-14",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-08-13",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-09-12",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-10-12",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-11-11",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2025-12-11",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-01-10",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-02-09",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-03-11",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-04-10",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-05-10",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-06-09",
+              "monto": 0
+            },
+            {
+              "fecha": "2026-07-09",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-08-08",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-09-07",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-10-07",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-11-06",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2026-12-06",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2027-01-05",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2027-02-04",
+              "monto": 545.83
+            },
+            {
+              "fecha": "2027-03-06",
+              "monto": 0
+            }
+          ],
+          "sucursal": "Guayaquil",
+          "centroCosto": "Centro Oeste",
+          "region": "Amazonía"
+        },
+        {
+          "id": 1503,
+          "tipo": "Vehicular",
+          "estado": "Cancelado",
+          "fechaInicio": "2020-10-22",
+          "monto": 48776,
+          "interes": 9.39,
+          "cuotas": 60,
+          "pagos": [
+            {
+              "fecha": "2020-10-22",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2020-11-21",
+              "monto": 0
+            },
+            {
+              "fecha": "2020-12-21",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-01-20",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-02-19",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-03-21",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-04-20",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-05-20",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-06-19",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-07-19",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-08-18",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-09-17",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-10-17",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2021-11-16",
+              "monto": 0
+            },
+            {
+              "fecha": "2021-12-16",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-01-15",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-02-14",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-03-16",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-04-15",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-05-15",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-06-14",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-07-14",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-08-13",
+              "monto": 0
+            },
+            {
+              "fecha": "2022-09-12",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-10-12",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-11-11",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2022-12-11",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-01-10",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-02-09",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-03-11",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-04-10",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-05-10",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-06-09",
+              "monto": 812.93
+            },
+            {
+              "fecha": "2023-07-09",
+              "monto": 812.93
+            }
+          ],
+          "sucursal": "Cuenca",
+          "centroCosto": "Centro Sur",
+          "region": "Amazonía"
+        }
+      ]
+    }
+  ],
+  "creditosPorMes": [
+    {
+      "mes": "Ene",
+      "total": 93
+    },
+    {
+      "mes": "Feb",
+      "total": 53
+    },
+    {
+      "mes": "Mar",
+      "total": 123
+    },
+    {
+      "mes": "Abr",
+      "total": 138
+    },
+    {
+      "mes": "May",
+      "total": 95
+    },
+    {
+      "mes": "Jun",
+      "total": 57
+    },
+    {
+      "mes": "Jul",
+      "total": 152
+    },
+    {
+      "mes": "Ago",
+      "total": 114
+    },
+    {
+      "mes": "Sep",
+      "total": 165
+    },
+    {
+      "mes": "Oct",
+      "total": 152
+    },
+    {
+      "mes": "Nov",
+      "total": 140
+    },
+    {
+      "mes": "Dic",
+      "total": 102
+    }
+  ],
+  "tiposDeCredito": [
+    {
+      "tipo": "Hipotecario",
+      "cantidad": 56
+    },
+    {
+      "tipo": "Consumo",
+      "cantidad": 73
+    },
+    {
+      "tipo": "Personal",
+      "cantidad": 24
+    },
+    {
+      "tipo": "Educativo",
+      "cantidad": 91
+    },
+    {
+      "tipo": "Vehicular",
+      "cantidad": 77
+    }
+  ],
+  "ingresosPorAnio": [
+    {
+      "anio": "2020",
+      "monto": 100
+    },
+    {
+      "anio": "2021",
+      "monto": 172
+    },
+    {
+      "anio": "2022",
+      "monto": 513
+    },
+    {
+      "anio": "2023",
+      "monto": 596
+    },
+    {
+      "anio": "2024",
+      "monto": 189
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3 class="mb-0">{{ isAnalyst ? 'Solicitudes de Crédito' : 'Mis Solicitudes de Crédito' }}</h3>
+ <button class="btn btn-success btn-sm" (click)="exportToExcel()" *ngIf="creditRequests.length">
+  <i class="fa fa-file-excel"></i> Exportar a Excel
+</button>
+<button class="btn btn-danger btn-sm" (click)="exportToPdf()" *ngIf="creditRequests.length">
+  <i class="fa fa-file-pdf"></i> Exportar a PDF
+</button>
+
+  <button class="btn btn-primary btn-sm" [routerLink]="['/app/credit-requests/create']">
+    <i class="fa fa-plus"></i> Nueva Solicitud
+  </button>
+</div>
+
+<table class="table table-bordered table-striped" *ngIf="creditRequests.length > 0">
+ 
+
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Monto</th>
+      <th>Plazo (Meses)</th>
+      <th>Ingreso Mensual</th>
+      <th>Antigüedad (Meses)</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of creditRequests">
+      <td>{{ item.id }}</td>
+      <td>{{ item.montoSolicitado }}</td>
+      <td>{{ item.plazoMeses }}</td>
+      <td>{{ item.ingresoMensual }}</td>
+      <td>{{ item.antiguedadLaboral }}</td>
+      <td>{{ item.estado }}</td>
+      <td>
+  <button *ngIf="item.estado === 'Pendiente'" class="btn btn-sm btn-warning me-1"
+          (click)="editRequest(item.id)">
+    <i class="fa fa-edit"></i> Editar
+  </button>
+  <button *ngIf="item.estado === 'Pendiente'" class="btn btn-sm btn-danger"
+          (click)="deleteRequest(item.id)">
+    <i class="fa fa-trash"></i> Eliminar
+  </button>
+</td>
+
+    </tr>
+  </tbody>
+</table>
+
+<div *ngIf="creditRequests.length === 0" class="alert alert-info">
+  No tienes solicitudes de crédito registradas.
+</div>

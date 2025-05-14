@@ -1,0 +1,166 @@
+﻿<!-- Tabs de navegación -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link" [class.active]="tabSeleccionado === 'creditos'" href="javascript:void(0)" (click)="mostrarTab('creditos')">Créditos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [class.active]="tabSeleccionado === 'ingresos'" href="javascript:void(0)" (click)="mostrarTab('ingresos')">Ingresos</a>
+  </li>
+</ul>
+
+<!-- Filtros visuales -->
+<div class="row mt-3">
+  <div class="col-md-3">
+    <label for="sucursalSelect">Sucursal:</label>
+    <select id="sucursalSelect" class="form-control" [(ngModel)]="filtroSucursal" (change)="aplicarFiltros()">
+      <option value="">Todas</option>
+      <option *ngFor="let s of sucursalesUnicas" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="anioSelect">Año:</label>
+    <select id="anioSelect" class="form-control" [(ngModel)]="filtroAnio" (change)="aplicarFiltros()">
+      <option value="">Todos</option>
+      <option *ngFor="let a of aniosUnicos" [value]="a">{{ a }}</option>
+    </select>
+  </div>
+</div>
+
+<!-- Contenido de pestañas -->
+<div class="tab-content mt-3">
+
+  <!-- Tab de Créditos -->
+  <div *ngIf="tabSeleccionado === 'creditos'">
+    <div class="row">
+      <!-- Créditos otorgados -->
+      <div class="col-lg-4 col-6">
+        <div class="small-box bg-success">
+          <div class="inner">
+            <h3>{{ totalCreditos }}</h3>
+            <p>Créditos otorgados</p>
+          </div>
+          <div class="icon">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clientes únicos -->
+      <div class="col-lg-4 col-6">
+        <div class="small-box bg-info">
+          <div class="inner">
+            <h3>{{ totalClientes }}</h3>
+            <p>Clientes únicos</p>
+          </div>
+          <div class="icon">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Créditos aprobados -->
+      <div class="col-lg-4 col-6">
+        <div class="small-box bg-primary">
+          <div class="inner">
+            <h3>{{ totalAprobados }}</h3>
+            <p>Créditos aprobados</p>
+          </div>
+          <div class="icon">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <!-- Créditos por Mes -->
+      <div class="col-md-6 mb-3">
+        <div class="card">
+          <div class="card-header"><h5 class="card-title">Créditos por Mes</h5></div>
+          <div class="card-body">
+            <canvas baseChart [data]="creditChartData" [options]="creditChartOptions" chartType="bar"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tipos de Crédito -->
+      <div class="col-md-6 mb-3">
+        <div class="card">
+          <div class="card-header"><h5 class="card-title">Tipos de Crédito</h5></div>
+          <div class="card-body">
+            <canvas baseChart [data]="creditTypeChartData" [options]="creditTypeChartOptions" chartType="doughnut"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desempeño por Sucursal -->
+    <div class="row">
+      <div class="col-md-12 mb-3">
+        <div class="card">
+          <div class="card-header"><h5 class="card-title">Desempeño por Sucursal</h5></div>
+          <div class="card-body">
+            <canvas baseChart 
+                    [data]="branchPerformanceChartData" 
+                    [options]="branchPerformanceChartOptions" 
+                    chartType="radar">
+            </canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab de Ingresos -->
+  <div *ngIf="tabSeleccionado === 'ingresos'">
+    <div class="row">
+      <!-- Créditos rechazados -->
+      <div class="col-lg-3 col-6">
+        <div class="small-box bg-danger">
+          <div class="inner">
+            <h3>{{ totalRechazados }}</h3>
+            <p>Créditos rechazados</p>
+          </div>
+          <div class="icon">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total de pagos -->
+      <div class="col-lg-3 col-6">
+        <div class="small-box bg-warning">
+          <div class="inner">
+            <h3>{{ totalPagos | number:'1.0-0' }}</h3>
+            <p>Total de pagos</p>
+          </div>
+          <div class="icon">
+            <i class="fas fa-file-invoice-dollar"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <!-- Ingresos por Año -->
+      <div class="col-md-6 mb-3">
+        <div class="card">
+          <div class="card-header"><h5 class="card-title">Ingresos por Año</h5></div>
+          <div class="card-body">
+            <canvas baseChart [data]="yearlyIncomeChartData" [options]="yearlyIncomeChartOptions" chartType="line"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Treemap por Región -->
+      <div class="col-md-6 mb-3">
+        <div class="card">
+          <div class="card-header"><h5 class="card-title">Distribución por Región (Treemap)</h5></div>
+          <div class="card-body">
+            <canvas #treemapRegionCanvas width="400" height="400"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

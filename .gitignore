@@ -1,0 +1,45 @@
+﻿
+---
+
+### 📁 `.gitignore` (colócalo en la raíz del repositorio)
+
+```gitignore
+# === BACKEND (.NET Core) ===
+bin/
+obj/
+out/
+*.user
+*.suo
+*.nlog
+*.mdf
+*.ldf
+*.db
+Generated_Code/
+.nuget/
+packages/
+
+# === FRONTEND (Angular) ===
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === ENTORNO Y CONFIG ===
+
+.env
+.env.local
+*.code-workspace
+
+# === Defecto ===
+
+# IDEs and editors
+.vs/
+obj/
+bin/
+aspnet-core/src/ProjectBlack.Web.Host/App_Data/Logs/
+aspnet-core/src/ProjectBlack.Web.Mvc/App_Data/Logs/
+aspnet-core/src/ProjectBlack.Migrator/Logs/Logs.txt
+aspnet-core/build/outputs/
+aspnet-core/docker/mvc/Mvc-Logs/

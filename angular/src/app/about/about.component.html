@@ -1,0 +1,65 @@
+﻿<div [@routerTransition]>
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1>{{ "About_Sys" | localize }}</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="content px-2">
+    <div class="container-fluid">
+      <div class="card">
+        <div class="card-body">
+
+          <p>
+            Esta aplicación ha sido desarrollada como parte de una prueba técnica, tomando como base la plantilla
+            de inicio de <strong>ASP.NET Boilerplate</strong>. Se ha personalizado y extendido para cumplir con los
+            requisitos funcionales y técnicos de un módulo de <strong>solicitudes de crédito en línea</strong>.
+          </p>
+
+          <h3>Módulo de Solicitudes de Crédito</h3>
+          <p>
+            El sistema cuenta con dos tipos de usuario:
+          </p>
+          <ul>
+            <li><strong>Solicitante:</strong> puede registrarse, iniciar sesión, crear nuevas solicitudes y consultar su historial personal.</li>
+            <li><strong>Analista:</strong> tiene acceso a todas las solicitudes, con capacidad para filtrarlas por estado y aprobar o rechazar según corresponda.</li>
+          </ul>
+
+          <p>
+            Por defecto, al levantar el sistema por primera vez, se crea automáticamente el <strong>rol de analista</strong>. Un usuario administrador puede asignar este rol a cualquier otro usuario desde la pantalla de administración de usuarios.
+          </p>
+
+          <p>
+            Una vez asignado, el usuario verá en el menú lateral la opción <strong>“Solicitudes (Analista)”</strong>, desde donde podrá acceder a todas las solicitudes registradas y gestionar su estado.
+          </p>
+
+          <p>
+            Las solicitudes tienen un estado inicial determinado automáticamente por el sistema según el ingreso mensual:
+            <ul>
+              <li>Si el ingreso mensual es igual o mayor a $1500 → el estado inicial será <strong>Aprobado</strong>.</li>
+              <li>En caso contrario, el estado inicial será <strong>Pendiente</strong>.</li>
+            </ul>
+          
+          <p>
+            Como medida de integridad, el sistema no permite que un analista apruebe sus propias solicitudes (se valida por usuario).
+          </p>
+
+          <h4>Base tecnológica</h4>
+          <ul>
+            <li>Frontend: Angular</li>
+            <li>Backend: ASP.NET Core (Boilerplate)</li>
+            <li>Autenticación: JWT</li>
+            <li>Auditoría automática y validación de roles integrada</li>
+          </ul>
+
+          <h4>Repositorio y documentación</h4>
+          <p>La solución debe incluir README.md con instrucciones de instalación, ejecución y credenciales por defecto.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

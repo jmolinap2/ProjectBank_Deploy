@@ -1,0 +1,45 @@
+<h3>Solicitudes de Crédito - Analista</h3>
+
+<div class="form-group">
+  <label>Estado:</label>
+  <select [(ngModel)]="estado" (change)="obtenerSolicitudes()" class="form-control">
+    <option value="Pendiente">Pendiente</option>
+    <option value="Aprobado">Aprobado</option>
+    <option value="Rechazado">Rechazado</option>
+  </select>
+</div>
+
+<!-- Busy wrapper (de AppComponentBase) -->
+  <table class="table table-bordered" *ngIf="solicitudes.length > 0">
+    <thead>
+      <tr>
+        <th>Usuario</th>
+        <th>Monto</th>
+        <th>Ingreso</th>
+        <th>Plazo</th>
+        <th>Antigüedad</th>
+        <th>Estado</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of solicitudes">
+        <td>{{ item.creatorUserName || '-' }}</td>
+        <td>{{ item.montoSolicitado }}</td>
+        <td>{{ item.ingresoMensual }}</td>
+        <td>{{ item.plazoMeses }}</td>
+        <td>{{ item.antiguedadLaboral }}</td>
+        <td>{{ item.estado }}</td>
+        <td>
+          <button *ngIf="item.estado === 'Pendiente'" class="btn btn-success btn-sm mr-1" (click)="aprobar(item.id)">Aprobar</button>
+          <button *ngIf="item.estado === 'Pendiente'" class="btn btn-danger btn-sm" (click)="rechazar(item.id)">Rechazar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="solicitudes.length === 0" class="alert alert-info text-center mt-3">
+    No hay solicitudes con el estado "{{ estado }}".
+  </div>
+
+

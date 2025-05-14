@@ -1,0 +1,42 @@
+<div class="container mt-4">
+  <div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">{{ "CreateCreditRequest" | localize }}</h5>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="form" (ngSubmit)="submit()">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="monto" class="form-label">{{ 'MontoSolicitado' | localize }}</label>
+      <input type="number" id="monto" class="form-control" formControlName="montoSolicitado" />
+    </div>
+    <div class="col-md-6">
+      <label for="plazo" class="form-label">{{ 'PlazoMeses' | localize }}</label>
+      <input type="number" id="plazo" class="form-control" formControlName="plazoMeses" />
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="ingreso" class="form-label">{{ 'IngresoMensual' | localize }}</label>
+      <input type="number" id="ingreso" class="form-control" formControlName="ingresoMensual" />
+    </div>
+    <div class="col-md-6">
+      <label for="antiguedad" class="form-label">{{ 'AntiguedadLaboralMeses' | localize }}</label>
+      <input type="number" id="antiguedad" class="form-control" formControlName="antiguedadLaboral" />
+    </div>
+  </div>
+
+  <div class="text-end mt-3">
+  <button type="submit" class="btn btn-primary me-2" [disabled]="saving">
+    {{ 'EnviarSolicitud' | localize }}
+  </button>
+  <button type="button" class="btn btn-secondary" (click)="cancel()">
+    {{ 'Cancelar' | localize }}
+  </button>
+</div>
+</form>
+
+    </div>
+  </div>
+</div>
