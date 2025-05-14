@@ -22,10 +22,10 @@ services:
       App__CorsOrigins: "http://frontend"
       App__ClientRootAddress: "http://frontend"
       App__ServerRootAddress: "http://backend"
-    ports:
-      - "5000:80"
     depends_on:
       - sqlserver
+    ports:
+      - "5000:80"
     networks:
       - appnet
 
